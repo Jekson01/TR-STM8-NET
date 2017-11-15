@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1930383511</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Exe\tr_net.hex</file>
+      <file>$PROJ_DIR$\Debug\Obj\hardware.o</file>
+      <file>$TOOLKIT_DIR$\inc\io_macros.h</file>
+      <file>$TOOLKIT_DIR$\inc\iostm8s003f3.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\tr_net.pbd</file>
+      <file>$PROJ_DIR$\Debug\List\tr_net.map</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\onewire.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hardware.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\tr_net.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\ind7seg.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hardware_delay.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\hardware_delay.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\onewire.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ind7seg.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\inttypes.h</file>
+      <file>$TOOLKIT_DIR$\config\lnkstm8s003f3.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\crc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ds18b20.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\crc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ds18b20.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\crc.cpp</file>
+      <file>$PROJ_DIR$\crc.h</file>
+      <file>$PROJ_DIR$\delay.h</file>
+      <file>$PROJ_DIR$\ds18b20.cpp</file>
+      <file>$PROJ_DIR$\ds18b20.h</file>
+      <file>$PROJ_DIR$\hardware.cpp</file>
+      <file>$PROJ_DIR$\hardware.h</file>
+      <file>$PROJ_DIR$\hardware_delay.h</file>
+      <file>$PROJ_DIR$\hardware_delay.cpp</file>
+      <file>$PROJ_DIR$\macros.h</file>
+      <file>$PROJ_DIR$\ind7seg.h</file>
+      <file>$PROJ_DIR$\ind7seg.cpp</file>
+      <file>$PROJ_DIR$\main.cpp</file>
+      <file>$PROJ_DIR$\onewire.cpp</file>
+      <file>$PROJ_DIR$\onewire.h</file>
+      <file>$PROJ_DIR$\stm_defines.h</file>
+      <file>$PROJ_DIR$\uart.cpp</file>
+      <file>$PROJ_DIR$\uart.h</file>
+      <file>$PROJ_DIR$\buttons.h</file>
+      <file>$PROJ_DIR$\buttons.cpp</file>
+      <file>$PROJ_DIR$\Debug\Obj\buttons.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\buttons.pbi</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 14 6</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\tr_net.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 27 54 31 32 1 19 15 8 21 11 4 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\crc.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 35 26 33 10 22 7 23 24 20 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 7 20 26 16 10 22 35 23 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ds18b20.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 38 26 33 10 22 7 23 24 20 16 48 49 3 2 41 43 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 2 26 7 23 43 48 10 22 16 24 35 20 49 41 3 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\hardware.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 40 49 3 2 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 49 2 40 43</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\hardware_delay.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 41 26 33 10 22 7 23 24 20 16 43 49 3 2</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 33 43 22 49 26 10 7 20 16 23 24 2 41</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ind7seg.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 44 26 33 10 22 7 23 24 20 16 49 3 2 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 20 26 3 22 43 49 10 7 16 23 24 2 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 49 3 2 44 26 33 10 22 7 23 24 20 16 40 43 36 41 38 48 51 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51 43 26 41 2 33 20 49 44 40 36 38 52 3 10 22 7 16 23 24 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\onewire.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 48 49 3 2 26 33 10 22 7 23 24 20 16 41 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 7 20 49 2 26 3 16 22 48 41 10 23 24 43</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uart.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 51 26 33 10 22 7 23 24 20 16 49 3 2 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 20 33 24 10 22 16 23 3 49 26 2 51 43</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\buttons.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 52 26 33 10 22 7 23 24 20 16 49 3 2</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 20 33 24 26 10 22 16 23 3 49 2 52</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
